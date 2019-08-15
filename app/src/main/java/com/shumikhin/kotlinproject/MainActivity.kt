@@ -2,6 +2,8 @@ package com.shumikhin.kotlinproject
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -9,4 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    fun toastMe(view:View){
+        val myToast = Toast.makeText(this,"Hello universe",Toast.LENGTH_LONG).show();
+    }
+
 }
