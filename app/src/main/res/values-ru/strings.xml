@@ -2,5 +2,5 @@
 <resources>
     <string name="app_name">Проект на Kotlin</string>
     <string name="hello_world_text">0</string>
-    <string name="title">Проект на Kotlin</string>
+    <string name="title">Kotlin проект</string>
 </resources>
