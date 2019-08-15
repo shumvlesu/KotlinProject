@@ -40,7 +40,7 @@
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/random_button"
             app:layout_constraintHorizontal_bias="0.563" android:background="@color/buttonBackground"
             android:textStyle="bold" android:fontFamily="@font/baloo"
-            android:textColor="@android:color/background_light"/>
+            android:textColor="@android:color/background_light" android:onClick="countMe"/>
     <Button
             android:text="random"
             android:layout_width="wrap_content"
