@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val countString = textView.text.toString()
         // Convert value to a number and increment it
         var count: Int = Integer.parseInt(countString)
-        count++;
+        count++
         // Display the new value in the text view.
         textView.text = count.toString()
     }
