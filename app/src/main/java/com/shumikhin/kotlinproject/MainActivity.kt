@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         var count: Int = Integer.parseInt(countString)
         count++
-        if (count==10) {
+        if (count==100) {
 
             val durationMs = 700L
 
