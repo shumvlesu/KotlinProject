@@ -68,15 +68,21 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:fontFamily="@font/baloo"
             android:textColor="@color/colorAccent"/>
+
     <ImageView
+            android:id="@+id/imageCat"
             android:layout_width="132dp"
-            android:layout_height="120dp" app:srcCompat="@drawable/cat5"
-            android:id="@+id/imageView"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/count_button"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            app:layout_constraintBottom_toTopOf="@+id/count_button" app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintVertical_bias="0.2" android:visibility="visible"/>
+            app:layout_constraintVertical_bias="0.2"
+            app:srcCompat="@drawable/cat5" />
 
 </android.support.constraint.ConstraintLayout>
